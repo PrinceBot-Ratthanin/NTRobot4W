@@ -211,7 +211,7 @@ Blockly.Blocks.ke_servo = {
     this.setColour(Blockly.Blocks.NKP_ONE.HUE);
     this.appendDummyInput()
     .appendField("Servo Pin:")
-    .appendField(new Blockly.FieldDropdown([["1","1"],["2","2"], ["3","3"],["4","4"]]), "PIN");
+    .appendField(new Blockly.FieldDropdown([["25","1"],["26","2"], ["27","3"],["14","4"],["13","5"]]), "PIN");
     this.appendValueInput("angle", Number)
     .setCheck(Number)
     .setAlign(Blockly.ALIGN_RIGHT)
